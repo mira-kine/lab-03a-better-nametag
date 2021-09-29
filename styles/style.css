@@ -39,7 +39,7 @@ h2 {
 main {
     width: 400px;
     margin-left: 10px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: cursive;
     font-weight: bold;
     padding-top: 40px;
@@ -59,6 +59,12 @@ header, footer {
     background-color: red;
 }
 
-header #pink {
-    background-color: pink;
+.tag {
+    max-height: 270px;
+    font-family:'Indie Flower', cursive;
+}
+
+#myPronoun {
+    font-size: 1.3rem;
+    margin-top: -13px;
 }
