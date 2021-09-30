@@ -8,7 +8,7 @@ const button3 = document.getElementById('green');
 const pronounInput = document.getElementById('pronoun')
 //const button4 = document.getElementById('input');
 const myPronoun = document.getElementById('myPronoun');
-let count = 0;
+//let count = 0;
 
 // initialize global state
 
@@ -23,6 +23,11 @@ let count = 0;
     let newPronoun = pronounInput.value;
     myPronoun.textContent = newPronoun;
   });
+
+  //button.addEventListener('click', ()=>{
+    //let newPronoun = pronounInput.value;
+    //myProNoun.textContent = newPronoun;
+  //});
 
   button1.addEventListener('click', ()=>{
     document.getElementById('header').style.backgroundColor = 'pink';
