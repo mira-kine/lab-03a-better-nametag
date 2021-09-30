@@ -87,3 +87,35 @@ header, footer {
 #pronounText {
     text-align: left;
 }
+
+#generate {
+    color: blue;
+}
+
+#pink {
+    background-color: pink;
+    border-radius: 30%;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#skyBlue {
+    background-color: skyblue;
+    border-radius: 30%;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#green {
+    background-color:green;
+    border-radius: 30%;
+    border: 30%;
+    width: 100px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
