@@ -38,8 +38,3 @@ let count = 0;
     document.getElementById('header').style.backgroundColor = 'green';
     document.getElementById('footer').style.backgroundColor = 'green';
   });
-
-  //button4.addEventListener('click', ()=>{
-    //let newPronoun = pronounInput.value;
-    //myPronoun.textContent = newPronoun;
-  //});
