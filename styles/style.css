@@ -68,3 +68,22 @@ header, footer {
     font-size: 1.3rem;
     margin-top: -13px;
 }
+
+#controls {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+#name-tag {
+    display: grid;
+    justify-content: center;
+}
+
+#nameText {
+    text-align: left;
+}
+
+#pronounText {
+    text-align: left;
+}

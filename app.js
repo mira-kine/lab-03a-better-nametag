@@ -6,7 +6,7 @@ const button1 = document.getElementById('pink');
 const button2 = document.getElementById('skyBlue');
 const button3 = document.getElementById('green');
 const pronounInput = document.getElementById('pronoun')
-const button4 = document.getElementById('input');
+//const button4 = document.getElementById('input');
 const myPronoun = document.getElementById('myPronoun');
 let count = 0;
 
@@ -20,6 +20,8 @@ let count = 0;
   button.addEventListener('click', ()=>{
     let newName = nameInput.value;
     firstName.textContent = newName;
+    let newPronoun = pronounInput.value;
+    myPronoun.textContent = newPronoun;
   });
 
   button1.addEventListener('click', ()=>{
@@ -37,7 +39,7 @@ let count = 0;
     document.getElementById('footer').style.backgroundColor = 'green';
   });
 
-  button4.addEventListener('click', ()=>{
-    let newPronoun = pronounInput.value;
-    myPronoun.textContent = newPronoun;
-  });
+  //button4.addEventListener('click', ()=>{
+    //let newPronoun = pronounInput.value;
+    //myPronoun.textContent = newPronoun;
+  //});
