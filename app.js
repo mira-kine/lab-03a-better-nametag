@@ -9,6 +9,10 @@ const pronounInput = document.getElementById('pronoun')
 //const button4 = document.getElementById('input');
 const myPronoun = document.getElementById('myPronoun');
 //let count = 0;
+const counterSpan = document.getElementById('counter');
+let counter = 0;
+counterSpan.textContent = counter;
+
 
 // initialize global state
 
@@ -22,6 +26,8 @@ const myPronoun = document.getElementById('myPronoun');
     firstName.textContent = newName;
     let newPronoun = pronounInput.value;
     myPronoun.textContent = newPronoun;
+    counter = counter + 1;
+    counterSpan.textContent = counter;
   });
 
   //button.addEventListener('click', ()=>{

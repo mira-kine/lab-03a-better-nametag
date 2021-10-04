@@ -69,7 +69,7 @@ header, footer {
     margin-top: -13px;
 }
 
-#controls {
+#controls, #generate, #counter {
     text-align: center;
     display: grid;
     justify-content: center;
@@ -88,9 +88,6 @@ header, footer {
     text-align: left;
 }
 
-#generate {
-    color: blue;
-}
 
 #pink {
     background-color: pink;
